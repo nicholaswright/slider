@@ -1,3 +1,10 @@
+/*
+
+Slider
+https://github.com/nicholaswright/slider/
+
+*/
+
 ;(function($) {
     'use strict';
     $.fn.slider = function(options) {
