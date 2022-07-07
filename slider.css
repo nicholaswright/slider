@@ -35,7 +35,7 @@ https://github.com/nicholaswright/slider/
 }
 
 .slider-thumbnail.active {
-    border-color: inherit;
+    border: 1px solid inherit; /* Use of border shorthand makes it easier to override */
 }
 
 /* Scrollbar */
