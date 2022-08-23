@@ -16,12 +16,12 @@ https://github.com/nicholaswright/slider/
                 interval: 0,
             }, options, el.data());
             
-            var slidesWrapper = el.find('.slider-slides');
-            var slides = el.find('.slider-slide');
-            var btnPrev = el.find('.slider-btn-prev');
-            var btnNext = el.find('.slider-btn-next');
-            var anchors = el.find('.slider-link');
-            var thumbnails = el.find('.slider-thumbnail');
+            var slidesWrapper = el.find('[data-slider-slides]');
+            var slides = el.find('[data-slider-slide]');
+            var btnPrev = el.find('[data-slider-btn-prev]');
+            var btnNext = el.find('[data-slider-btn-next]');
+            var anchors = el.find('[data-slider-link]');
+            var thumbnails = el.find('[data-slider-thumbnail]');
             
             var numSlides = slides.length;
             var slideWidth = Math.floor(slides.outerWidth());
